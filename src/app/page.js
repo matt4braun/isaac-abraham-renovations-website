@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100">
       <div className="container mx-auto p-5">
-        <h1 className="text-2xl font-bold mb-5">Isaac Renovations</h1>
+        <h1 className="text-2xl font-bold mb-5">Abraham Renovations</h1>
         <p>Run by Isaac Abraham</p>
         <p>Based in Ottawa, Ontario</p>
         <hr className="divider mb-5" />
@@ -18,9 +18,9 @@ export default function Home() {
               
             </div>
             <div className="text-center">
-              <p className="text-lg font-semibold">drywalling</p>
-              <p className="text-sm">prices</p>
-              
+              <p className="text-lg font-semibold">Drywalling</p>
+              <p className="text-sm"></p>
+              <Image src = "/wall.png" width = "400" height = "100"></Image>
 
         
             </div>
@@ -32,7 +32,7 @@ export default function Home() {
               
             </div>
             <div className="text-center">
-              <p className="text-lg font-semibold">basement finishing</p>
+              <p className="text-lg font-semibold">Basement Finishing</p>
               <p className="text-sm"></p>
               <Image src = "/finished.jpg" width = "400" height = "200"></Image>
               
@@ -45,7 +45,7 @@ export default function Home() {
               
             </div>
             <div className="text-center">
-              <p className="text-lg font-semibold">Hardwood floors</p>
+              <p className="text-lg font-semibold">Hardwood Floors</p>
               <p className="text-sm">.</p>
               <Image src = "/hardfloor.jpg" width = "200" height = "100"></Image>
               
@@ -57,7 +57,7 @@ export default function Home() {
               
             </div>
             <div className="text-center">
-              <p className="text-lg font-semibold">Hardwood stairs</p>
+              <p className="text-lg font-semibold">Hardwood Stairs</p>
               <p className="text-sm">.</p>
               <Image src = "/hardstairs.jpg" width = "200" height = "100"></Image>
               
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="text-center">
               <p className="text-lg font-semibold">Decks</p>
               <p className="text-sm">.</p>
-              
+              <Image src = "/deck.png" width = "300" height = "100"></Image>
             </div>
           </div>
 
@@ -83,7 +83,8 @@ export default function Home() {
             </div>
             <div className="text-center">
               <p className="text-lg font-semibold">Contact Information</p>
-              <p className="text-sm">Currently, Abraham Renovations is flooded with jobs, and is unable to take on anymore, but if this changes Contact Information will be uploaded here</p>
+              <p className="text-me">Unfortunately, Abraham Renovations is currently flooded with jobs and is unable to take on anymore.</p> 
+              <p>If this changes Contact Information will be uploaded here</p>
               
             </div>
           </div>
